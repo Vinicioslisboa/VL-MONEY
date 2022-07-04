@@ -9,7 +9,7 @@ export function Header() {
           <img src={logoImg} alt="Logo VL" />
           <span><h2>VL MONEY</h2></span>
         </div>
-        <button type="button">
+        <button disabled type="button">
           Nova transação
         </button>
       </Content>

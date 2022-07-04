@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.header`
-  background-color: var(--blue);
+  background: var(--blue);
 `;
 
 export const Content = styled.div`
@@ -10,11 +10,10 @@ export const Content = styled.div`
   padding: 2rem 1rem 10rem;
 
   display: flex;
-  align-items: center;
   justify-content: space-between;
 
   button {
-    font-size: 1rem;
+    font-size: rem;
     color: #FFF;
     height: 3rem;
     padding: 0 2rem;
