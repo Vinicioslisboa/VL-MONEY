@@ -12,8 +12,15 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
+  a {
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+  }
+
   button {
-    font-size: rem;
+    font-size: 1rem;
     color: #FFF;
     height: 3rem;
     padding: 0 2rem;
