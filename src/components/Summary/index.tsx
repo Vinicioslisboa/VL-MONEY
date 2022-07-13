@@ -3,7 +3,6 @@ import arrowUpImg from "../../assets/img/entradas.svg";
 import arrowDownImg from "../../assets/img/saidas.svg";
 import totalImg from "../../assets/img/total.svg";
 
-
 export function Summary() {
   return (
     <Container>
