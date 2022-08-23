@@ -12,14 +12,23 @@ export const Content = styled.div`
   display: flex;
   justify-content: space-between;
 
+  a {
+    text-decoration: none;
+    color: #FFF;
+    display: flex;
+    align-items: center;
+  }
+
   button {
-    font-size: rem;
+    font-size: 1rem;
     color: #FFF;
     height: 3rem;
     padding: 0 2rem;
     background-color: var(--light-blue);
     border: 0;
     border-radius: 0.25rem;
+
+    transition: filter 0.2s;
 
     &:hover {
       filter: brightness(0.9);
